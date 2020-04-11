@@ -1,10 +1,9 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from __future__ import print_function
 import argparse
 import random
 import time
-import board
+# import board
 import adafruit_dht
 from prometheus_client import start_http_server, Gauge
 
