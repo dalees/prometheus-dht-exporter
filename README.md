@@ -9,4 +9,4 @@ Reference pinout for AM2302 and Raspberry Pi 2 Model B:
 | -----  | ------ | ----------- |
 | Red    | pin 1  | +3.3v       |
 | Black  | pin 6  | Ground      |
-| Yellow | pin 4  | GPIO Data   |
+| Yellow | pin 7  | [GPIO 4 Data](https://pinout.xyz/pinout/pin7_gpio4) |

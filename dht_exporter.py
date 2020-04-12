@@ -44,7 +44,7 @@ if __name__ == '__main__':
     cli_arguments = parser.parse_args()
 
     if cli_arguments.poll_time < 2:
-        print("The chip caches records for 2 seconds, so no improvement will be noticed with a frequent poll.")
+        print("INFO: The chip caches records for 2 seconds, so no improvement will be noticed with a frequent poll.")
 
     if len(cli_arguments.gpio) != len(cli_arguments.room):
         print("The number of gpio pins set needs to be the same as number of rooms set" \
